@@ -1,0 +1,20 @@
+{
+    "name": "azabroflovski/logdb-php-client",
+    "description": "Client for LogDB server",
+    "type": "library",
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "LogDB\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azabroflovski",
+            "email": "azabroflovski@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
